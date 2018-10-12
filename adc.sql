@@ -41,11 +41,7 @@ CREATE TABLE `aadhar_details` (
 --
 
 INSERT INTO `aadhar_details` (`uid`, `name`, `dob`, `gender`, `address`) VALUES
-(123567831673, 'jhonny', '2018-03-24', 'male', 'yuwe,ewew,ewwe'),
-(184637281908, 'Bharath', '2018-03-16', 'male', 'qwqwqqwqwqwqw'),
-(334350409079, 'Amritha', '1998-10-31', 'female', 'xzj,nnn,cbe'),
-(435622746450, 'Akhila', '1998-11-17', 'female', 'rdd,ioi,cbe'),
-(625753433893, 'Aakash Nilavan', '1999-06-19', 'male', 'xyz,mh1,cbe');
+(123567831673, 'jhonny', '2018-03-24', 'male', 'yuwe,ewew,ewwe');
 
 -- --------------------------------------------------------
 
@@ -80,9 +76,7 @@ CREATE TABLE `doctor_details` (
 --
 
 INSERT INTO `doctor_details` (`id`, `license_no`, `name`, `phn_no`, `lat`, `lon`, `temp`) VALUES
-(1, 123456, 'Hesen', 8190038383, 22.6941, 88.3785, 111.073),
-(2, 98765, 'Nivas', 8190038383, 33.4572, 77.3451, 110.802),
-(3, 34567, 'Nivya', 8190038383, 25.1762, 85.6781, 110.854);
+(1, 123456, 'Hesen', 8190038383, 22.6941, 88.3785, 111.073);
 
 -- --------------------------------------------------------
 
@@ -108,9 +102,7 @@ CREATE TABLE `driver_details` (
 --
 
 INSERT INTO `driver_details` (`id`, `username`, `password`, `name`, `uid`, `contact_no`, `license_no`, `van_type`, `latitude`, `longitude`) VALUES
-(9, 'hesen', 'hai', 'hesen', 122121, 8190038383, 'eddewee', '', 13.0827, 80.2707),
-(10, 'akhila', 'akhilaeli', 'akhila', 123412341234, 9488944188, 'eeiwdewui', 'crematorium', 0, 0),
-(11, 'aakash', 'kaaviya', 'aakash', 123412341234, 8508340583, 'tn 23 ak 9902', 'crematorium', 0, 0);
+(9, 'hesen', 'hai', 'hesen', 122121, 8190048383, 'eddewee', '', 13.0827, 80.2707);
 
 -- --------------------------------------------------------
 
@@ -129,8 +121,7 @@ CREATE TABLE `forensic_doctor_details` (
 --
 
 INSERT INTO `forensic_doctor_details` (`id`, `password`, `name`) VALUES
-(1601009, 'akhilaeli', 'Akhila A'),
-(1601012, 'amrithakuchi', 'Amritha Menon');
+(1601009, 'nivas', 'Hesen');
 
 -- --------------------------------------------------------
 
@@ -149,10 +140,7 @@ CREATE TABLE `forensic_table` (
 --
 
 INSERT INTO `forensic_table` (`id`, `uid`, `name`) VALUES
-(1, 123567831673, 'sample'),
-(2, 176482943675, 'sample2'),
-(3, 186427894121, 'sample3'),
-(4, 421638920842, 'sample4');
+(1, 123567831673, 'sample');
 
 -- --------------------------------------------------------
 
@@ -171,8 +159,7 @@ CREATE TABLE `general_doctor_details` (
 --
 
 INSERT INTO `general_doctor_details` (`id`, `name`, `password`) VALUES
-(1601015, 'Aravind', 'aravind'),
-(1601024, 'Bharath Kumar', 'bharathkumar');
+(1601015, 'Aravind', 'aravind');
 
 -- --------------------------------------------------------
 
@@ -221,19 +208,7 @@ CREATE TABLE `user_details` (
 
 INSERT INTO `user_details` (`id`, `uid`, `driver_uid`, `lat`, `lon`, `phn_no`) VALUES
 (1, 334350409079, 122121, 22.694, 88.3787, 0),
-(6, 625753433893, 123412341234, 22.694, 88.3787, 0),
-(7, 334350409079, 122121, 22.694, 88.3787, 0),
-(8, 123567831673, 123412341234, 22.6941, 88.3786, 0),
-(9, 334350409079, 122121, 22.6941, 88.3786, 0),
-(10, 334350409079, 122121, 22.6941, 88.3786, 0),
-(11, 334350409079, 122121, 22.6941, 88.3786, 0),
-(12, 334350409079, 122121, 22.6941, 88.3785, 0),
-(13, 334350409079, 122121, 22.6941, 88.3786, 0),
-(14, 334350409079, 122121, 22.6941, 88.3787, 0),
-(15, 334350409079, 122121, 22.6941, 88.3786, 0),
-(16, 334350409079, 122121, 22.6941, 88.3785, 0),
-(17, 435622746450, 122121, 20.5937, 78.9629, 0),
-(18, 435622746450, 122121, 13.0827, 80.2707, 0);
+(6, 625753433893, 123412341234, 22.694, 88.3787, 0);
 
 --
 -- Indexes for dumped tables
